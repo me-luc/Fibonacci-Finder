@@ -9,7 +9,6 @@ public class FibonacciFinder {
 
 		while(n3<=number) {
 			n3 = n1 + n2;
-			System.out.println(n3 + " " + isFibonacci + "\n");
 			if(n3==number) {
 				isFibonacci = true;
 				break;

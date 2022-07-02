@@ -8,8 +8,7 @@ public class main {
 		
 		while(true) {
 			number = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite um número e descubra se \nele está na sequência Fibonacci:"));
-			System.out.println(f.checkNumber(number));
-			JOptionPane.showMessageDialog(null, f.checkNumber(number));
+			JOptionPane.showMessageDialog(null, f.checkNumber(number)); 
 		}
 
 	}
