@@ -1,5 +1,3 @@
-import javax.swing.plaf.synth.SynthProgressBarUI;
-
 public class FibonacciFinder {
 	
 	public String checkNumber (int number) {
